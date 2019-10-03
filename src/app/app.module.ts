@@ -27,6 +27,7 @@ import {MaterialModule} from './material/material.module';
     RouterRoutingModule,
     MaterialModule
   ],
+  entryComponents: [MainViewComponent,LoginComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
