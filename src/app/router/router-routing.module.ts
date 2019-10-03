@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LandingComponent } from '../landing/landing.component';
-import { MainViewComponent } from '../main-view/main-view.component';
-import { PdpComponent } from '../pdp/pdp.component';
+import { LandingComponent } from '../components/landing/landing.component';
+import { MainViewComponent } from '../components/main-view/main-view.component';
+import { PdpComponent } from '../components/pdp/pdp.component';
 
 
 export const routes: Routes = [
