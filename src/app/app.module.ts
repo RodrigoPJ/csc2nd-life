@@ -11,6 +11,7 @@ import { MainViewComponent } from './components/main-view/main-view.component';
 import { PdpComponent } from './components/pdp/pdp.component';
 import { ItemComponent } from './components/item/item.component';
 import {MaterialModule} from './material/material.module';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {MaterialModule} from './material/material.module';
     LoginComponent,
     MainViewComponent,
     PdpComponent,
-    ItemComponent
+    ItemComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,

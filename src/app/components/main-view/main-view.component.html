@@ -1,14 +1,22 @@
-<mat-toolbar color="primary">
-  <span>Welcome, User</span>
+<mat-toolbar color="">
+    <mat-toolbar-row>
+  <span><i class="material-icons" style="font-size: 58px;">
+    account_circle
+    </i></span>
+<span style="font-size: 36px" >63 </span> <i class="material-icons">
+  stars
+  </i>  <span>Star Balance</span>
+
 
   <!-- This fills the remaining space of the current row -->
   <span class="example-fill-remaining-space"></span>
 
-  <mat-slider class="example-fill-remaining-space" min="0" max="100" step="1" value="66"></mat-slider>
+  <mat-slider color="primary" class="example-fill-remaining-space" min="0" max="100" step="1" value="66"></mat-slider>
+</mat-toolbar-row>
 
-  <span>You have 66 stars!</span>
 </mat-toolbar>
 
 <app-item></app-item>
-
-<footer>Some footer</footer>
+<footer class="footBarCont">
+    <app-toolbar class=""></app-toolbar>
+</footer>
